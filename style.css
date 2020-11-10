@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: lightblue;
+}
+
+body:hover{
+	background-color: lightgreen;
+}
+
+a{
+		color: purple;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+	}
+
+h1{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-weight: 500px;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 36pt;
+}
+
+h2{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-align: center;
+	font-size: 24pt;
+}
+
+#div1{
+	background-color: lightsteelblue;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+#div2{
+	background-color: lightgoldenrodyellow;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+#div3{
+	background-color: lightcyan;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+#nav1{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18pt;
+	text-align: right;
+}
+
+.toLearn{
+		text-decoration: underline;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	}
+
+#div1, #div2 {
+		border: outset; position: static;
+	}
+
+#div3{
+	border: outset; position: absolute;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+form{
+		padding: 15px;
+		background-color: white;
+		font-style: italic;
+		border-style: solid;
+		font-weight: 900px;
+	}
+
+input[type=button]{
+		color:black;
+		background-color: white;
+		padding: 5px
+	}
+
+input[type=button]:hover{
+		border:solid;
+		background-color: lightgreen;
+	}
+
+	input[type=text]:focus {
+		background-color: cyan;
+		color: black;
+		width: 12%;
+		transition: 2s;
+	}
+
+h3{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+#div4{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	background-color: aqua;
+}
+
+#interests{
+	font-size: 14pt;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+#picture{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background-color: gainsboro;
+}
+
+#facts{
+	background-color: aqua;
+	border: outset; position: static;
+}
+
+#video1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#video2{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+#table1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
